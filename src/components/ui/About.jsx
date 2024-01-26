@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
 import React from 'react'
 import Typed from 'typed.js';
-import cv from './images/myCv.pdf'
-import profile1 from './images/profile-avatar.jpg'
-import profile2 from './images/profile-avatar1.jpg'
-import profile3 from './images/profile-avatar2.jpg'
+import cv from '../images/myCv.pdf'
+import profile1 from '../images/profile-avatar.jpg'
+import profile2 from '../images/profile-avatar1.jpg'
+import profile3 from '../images/profile-avatar2.jpg'
 
 export default function About() {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -16,7 +16,7 @@ export default function About() {
             loop: true,
             showCursor: true,
             onStringTyped: (arrayPos) => {
-                setCurrentIndex(arrayPos % 3); // Assuming you have 3 profile images
+                setCurrentIndex(arrayPos % 3);
             },
         });
 

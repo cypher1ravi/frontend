@@ -61,13 +61,7 @@ export default function Skill() {
                             </div>
                             <div className="line react"></div>
                         </div>
-                        <div className="bars">
-                            <div className="info">
-                                <span>MySQL</span>
-                                <span>50%</span>
-                            </div>
-                            <div className="line mysql"></div>
-                        </div>
+
                     </div>
                 </div>
             </div>
